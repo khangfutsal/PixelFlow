@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 631266621, guid: d02ce32f644586b0740907237b83e4be, type: 3}
+  m_Name: GoogleAuthSettings
+  m_EditorClassIdentifier:
+  Id: Default
+  ClientIdGeneric: '642392804977-i3si4njl3ds1oufrho7a8m2u6779k8b9.apps.googleusercontent.com '
+  CustomUriSchemeGeneric: com.loomgames.pixelflow
+  ClientIdWindows: '642392804977-i3si4njl3ds1oufrho7a8m2u6779k8b9.apps.googleusercontent.com '
+  ClientSecretWindows:
+  CustomUriSchemeWindows: com.loomgames.pixelflow
+  ClientIdWebGL:
+  ClientSecretWebGL:
+  ClientIdDesktop: 642392804977-o6svihpbnorkht0885872or5u9im34ch.apps.googleusercontent.com
+  ClientSecretDesktop: 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
+  AccessScopes:
+  - openid
+  - email
+  - profile
+  ManualCancellation: 0
+  UseSafariViewController: 1

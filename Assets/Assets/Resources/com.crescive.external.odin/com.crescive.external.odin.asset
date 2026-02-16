@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -861223314, guid: ca634075c7e738d3736d0122f526e390, type: 3}
+  m_Name: com.crescive.external.odin
+  m_EditorClassIdentifier:
+  installFolder: Plugins
+  packageRootFolderName: Sirenix
+  assetType: 0
+  assetStoreID: 89041
+  assetVersion: 3.3.1.9

@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1619472058, guid: 02da8e0fff55d2b0ff6bf477a9f9a328, type: 3}
+  m_Name: WeaverSettings
+  m_EditorClassIdentifier:
+  gameId: 095cd7be-247e-497f-b0f1-da9580acbb5d
+  setDebugging: 1
+  customSaveSystem: {fileID: 11400000, guid: 259d7e0802b20124cbe333a82c2384f2, type: 2}
+  facebookEnabled: 1
+  facebookAppID: 1733652000846909
+  facebookClientToken: 5e41aa8deb6c423163c236feeb07bff0
+  facebookDebug: 0
+  gameAnalyticsEnabled: 1
+  gameAnalyticsAndroidGameKey: af581cd569eedcaac09d8d1ad83d317a
+  gameAnalyticsAndroidSecretKey: 184b18460ea8b89ff5cd17fbbd406a12469508b6
+  gameAnalyticsIosGameKey: c00a00714145e4eb944508a9d972774f
+  gameAnalyticsIosSecretKey: 4cecda2cc70c12e8288e046bc68d04c981c232e4
+  firebaseEnabled: 1
+  adjustEnabled: 1
+  adjustAppTokenIos: km1cossui6m8
+  adjustAppTokenAndroid: km1cossui6m8
+  adjustDebug: 1
+  appLovinEnabled: 1
+  appLovinConsentFlowEnabled: 1
+  maxSdkKey: Ef_41ISQcXexG_9HfC8XlmGERR_gpyQZIo_kyZE0TJIFx9BmrhGpT0MB23oEZIOgrli5mnaVCeTEuCrw6fPtGv
+  iOSBannerAdUnit:
+  iOSInterAdUnit: e74633508bd43447
+  iOSRewardedAdUnit: "3cf89fabc628fab8\t"
+  androidBannerAdUnit:
+  androidInterAdUnit: 695b54690743e037
+  androidRewardedAdUnit: 4d04ca6bb924a7a5
+  interstitialSettings:
+    InstallDelay: 0
+    MinSessionCount: 0
+    SessionStartDelay: 60
+    InterInterDelay: 60
+    RewardedInterDelay: 60
+  bannerSettings:
+    InstallDelay: 0
+    SessionStartDelay: 0
+  productionServerUrl: https://api.loomgames.com
+  testServerUrl: https://api-dev.loomgames.com
+  fetchRemoteConfigsEndpoint: /remote-config/CompositeConfig/fetch-configs
+  sendEventEndpoint: /event-service/events
+  loggerActiveUrl: /logger/check-device?deviceId=
+  iapValidationSettings:
+    Enabled: 1
+    iOSEndpoint: /loom-games/validate
+    AndroidEndpoint: /loom-games/validate
+  privacyPolicyURL: https://www.loomgames.com/privacy-policy/
+  skipGdprCheck: 0
+  companyName: Loom Games
+  developerContactEmail: support@loomgames.com

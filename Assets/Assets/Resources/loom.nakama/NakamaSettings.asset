@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1459559503, guid: 358db1f60bbf26f033d171ef202c3c89, type: 3}
+  m_Name: NakamaSettings
+  m_EditorClassIdentifier:
+  environmentProfiles:
+  - Id: local
+    Name: Local
+    ServerHost: 127.0.0.1
+    ServerPort: 7350
+    ServerKey: defaultkey
+    HttpKey:
+    UseSecureConnection: 0
+  - Id: prod
+    Name: Prod
+    ServerHost: pixel-flow-nakama-prod-0967.us-east1-b.nakamacloud.io
+    ServerPort: 443
+    ServerKey: 8OColaGFcPXa3E41
+    HttpKey:
+    UseSecureConnection: 1
+  - Id: dev
+    Name: Dev
+    ServerHost: pixel-flow-nakama-dev-273a.us-east1-b.nakamacloud.io
+    ServerPort: 443
+    ServerKey: BXi1Shd0dSVm0W9Z
+    HttpKey:
+    UseSecureConnection: 1
+  activeProfileId: prod
+  serverHost: 127.0.0.1
+  serverPort: 7350
+  useSecureConnection: 0
+  serverKey: defaultkey
+  httpKey: defaulthttpkey
+  autoRefreshSession: 1
+  forceTokenRefreshOnStart: 1
+  autoUnlinkDeviceIdOnSecondAuth: 0
+  useCloudKitForFreshLogin: 1
+  fallbackToDeviceIdOnCloudKitError: 1
+  cloudKitInitTimeoutSeconds: 5
+  requestTimeoutSeconds: 10
+  heartbeatIntervalSeconds: 30
+  customHeaders: []
+  googleWebClientId: 642392804977-8sm1tp81dlano7410tk7m2fjj080uarb.apps.googleusercontent.com
+  googleIOSClientId: 642392804977-udkb1h55ul5kb56qsqhsb88d8dmrd696.apps.googleusercontent.com
+  appleIncludeEmail: 1
+  appleIncludeFullName: 1
+  facebookAppId:
+  facebookPermissions: public_profile,email
+  customSaveSystem: {fileID: 0}
+  retryConfiguration:
+    MaxRetries: 3
+    BaseDelaySeconds: 1
+    MaxDelaySeconds: 10
+    JitterScale: 0.2
+    EnableAutoReconnect: 1
+  logLevel: 0

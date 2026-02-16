@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 211401617, guid: 0e3859a6bbe19a324161eb0496a06c93, type: 3}
+  m_Name: Resources_Scriptable Objects Provider
+  m_EditorClassIdentifier:
+  objects:
+  - scriptableObject: {fileID: 11400000, guid: 570840e48cbfb6545ab4d4579f7f24ef, type: 2}
+  - scriptableObject: {fileID: 11400000, guid: ca3fb33079ce0da4a973c2a298a2d1a4, type: 2}
+  - scriptableObject: {fileID: 11400000, guid: 1ac98d5c120d7784185a7aee6ec55447, type: 2}
+  - scriptableObject: {fileID: 11400000, guid: c1ad9e28a71c11a42901dc36fc5fcee7, type: 2}
+  - scriptableObject: {fileID: 11400000, guid: 51686a47b57ae5640bc1f2126c9964d4, type: 2}
+  - scriptableObject: {fileID: 11400000, guid: 0a743873353cddd4686177d3563474b4, type: 2}
+  - scriptableObject: {fileID: 11400000, guid: d15b013af5c7be140bb4808a4a2eb121, type: 2}
+  - scriptableObject: {fileID: 11400000, guid: 31392f56ee48eea43bcf945d39dcebd3, type: 2}
+  - scriptableObject: {fileID: 11400000, guid: c128a04b527c68448b424bcd0a571bc9, type: 2}
+  - scriptableObject: {fileID: 11400000, guid: 5c1762f9829de34478fd9f9353967c8a, type: 2}
+  - scriptableObject: {fileID: 11400000, guid: 1f200dcdcf4052749bdbc3b6d6c2fbad, type: 2}
+  filter:
+    types:
+    - Crescive.Data.Resources.Resource
+    - Crescive.Data.Resources.BaseResourceExtension
+    - Crescive.Data.Resources.ResourcesSystem
+    namespaces: []
+    exceptNamespaces: []
+    labelFilter:
+      labels: []
+  isInitialized: 1

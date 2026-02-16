@@ -1,0 +1,496 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1634925817, guid: 2812160529727db6c0025ab4d38cd038, type: 3}
+  m_Name: Game Package Manager Config
+  m_EditorClassIdentifier:
+  managerRegistryName: package.crescive.com
+  managerPackage:
+    name: Game Package Manager
+    packageId: com.crescive.packagemanager
+    scope:
+  categories:
+  - name: Unity
+    modules:
+    - name: Editor
+      description: Editor tools and utilities
+      sections:
+      - name: Unity Built-In
+        packages:
+        - name: Android Logcat
+          packageId: com.unity.mobile.android-logcat
+          scope:
+        - name: Cinemachine
+          packageId: com.unity.cinemachine
+          scope:
+        - name: Device Simulator Devices
+          packageId: com.unity.device-simulator.devices
+          scope:
+        - name: Recorder
+          packageId: com.unity.recorder
+          scope:
+      - name: Internal Editor
+        packages:
+        - name: Editor Utils
+          packageId: com.crescive.editorutils
+          scope:
+        - name: Asset Utils
+          packageId: com.crescive.assetutils
+          scope:
+        - name: Scriptable Utils
+          packageId: com.crescive.scriptableutils
+          scope:
+        - name: Asset Store Management
+          packageId: com.crescive.assetstoremanagement
+          scope:
+        - name: Custom Toolbar
+          packageId: com.crescive.customtoolbar
+          scope:
+        - name: Favorites
+          packageId: com.loom.favorites
+          scope:
+        - name: Git Changes Warning
+          packageId: com.crescive.customtoolbar.gitchangeswarning
+          scope:
+        - name: Editor Shortcuts
+          packageId: com.crescive.editorshortcuts
+          scope:
+        - name: Selection Helper
+          packageId: com.crescive.selectionhelper
+          scope:
+        - name: Asset Hider
+          packageId: com.loom.assethider
+          scope:
+      - name: External Editor
+        packages:
+        - name: Sidekick
+          packageId: com.sabresaurus.sidekick
+          scope: com.openupm
+        - name: Asset Usage Detector
+          packageId: com.yasirkula.assetusagedetector
+          scope: com.openupm
+        - name: PlayerPref Editor & Utilities
+          packageId: com.sabresaurus.playerprefseditor
+          scope: com.openupm
+        - name: Extended Transform Editor
+          packageId: com.beans.ete
+          scope: com.crescive
+        - name: Copy Lighting Settings
+          packageId: com.oddworm.copylightingsettings
+          scope: com.openupm
+        - name: Odin
+          packageId: com.crescive.external.odin
+          scope:
+        - name: Screenshooter
+          packageId: com.teamon.screenshooter
+          scope: com.crescive
+    - name: UI
+      description: User interface and experience
+      sections:
+      - name: External UI
+        packages:
+        - name: UI Effect
+          packageId: com.coffee.ui-effect
+          scope: com.openupm
+        - name: UI Particle
+          packageId: com.coffee.ui-particle
+          scope: com.openupm
+        - name: UI Rounded Corners
+          packageId: com.nobi.roundedcorners
+          scope: com.openupm
+        - name: UI Extensions
+          packageId: com.unity.uiextensions
+          scope: com.openupm
+        - name: GUI Pro Super Casual
+          packageId: com.crescive.external.guiprosupercasual
+          scope:
+      - name: Internal UI
+        packages:
+        - name: UI Tap Blocker
+          packageId: com.crescive.tapblocker
+          scope:
+        - name: UI Binding
+          packageId: com.crescive.ui.binding
+          scope:
+        - name: UI Binding DOTween
+          packageId: com.crescive.ui.binding.dotween
+          scope:
+        - name: UI User Input
+          packageId: com.crescive.ui.userinput
+          scope:
+        - name: UI Layouts
+          packageId: com.crescive.ui.layouts
+          scope:
+        - name: UI Modals
+          packageId: com.crescive.ui.modals
+          scope:
+        - name: UI Navigation
+          packageId: com.crescive.ui.navigation
+          scope:
+        - name: UI Navigation UniTask
+          packageId: com.crescive.ui.navigation.unitask
+          scope:
+        - name: UI Navigation Animation
+          packageId: com.crescive.ui.navigation.animation
+          scope:
+        - name: UI Navigation Extended
+          packageId: com.crescive.ui.navigation.extended
+          scope:
+        - name: UI Progression
+          packageId: com.crescive.ui.progression
+          scope:
+        - name: UI Progression UniTask
+          packageId: com.crescive.ui.progression.unitask
+          scope:
+        - name: UI Selectables
+          packageId: com.crescive.ui.selectables
+          scope:
+        - name: UI Unyverse
+          packageId: com.crescive.ui.unyverse
+          scope:
+        - name: UI Safe Area
+          packageId: com.crescive.ui.safearea
+          scope:
+        - name: Unity UI (UGUI) Utils
+          packageId: com.crescive.ugui-utils
+          scope:
+        - name: UnyGUI
+          packageId: com.crescive.unygui
+          scope:
+      - name: FX UI
+        packages:
+        - name: UI FXtended
+          packageId: com.crescive.ui.fxtended
+          scope:
+        - name: UI Animations
+          packageId: com.crescive.ui.animations
+          scope:
+        - name: UI Haptic
+          packageId: com.crescive.ui.haptic
+          scope:
+        - name: UI Audio
+          packageId: com.crescive.ui.audio
+          scope:
+      - name: Internal Text UI
+        packages:
+        - name: UI Text
+          packageId: com.crescive.ui.text
+          scope:
+        - name: UI Text Extended
+          packageId: com.crescive.ui.text.extended
+          scope:
+        - name: UI Text Localization
+          packageId: com.crescive.ui.text.localization
+          scope:
+        - name: UI Text Formatters
+          packageId: com.crescive.ui.text.formatters
+          scope:
+    - name: Game
+      description: Extended and useful game tools
+      sections:
+      - name: Localization
+        packages:
+        - name: Unity Localization
+          packageId: com.unity.localization
+          scope:
+        - name: Crescive Localization
+          packageId: com.crescive.localization
+          scope:
+      - name: Animation
+        packages:
+        - name: DOTween
+          packageId: com.crescive.external.dotween
+          scope:
+        - name: DOTween Utils
+          packageId: com.crescive.dotweenutils
+          scope:
+        - name: Animation Sequencer
+          packageId: com.brunomikoski.animationsequencer
+          scope: com.openupm
+        - name: Value Animator
+          packageId: com.crescive.valueanimator
+          scope:
+        - name: Object Animations
+          packageId: com.crescive.animation.objects
+          scope:
+      - name: Vibration
+        packages:
+        - name: Nice Vibrations
+          packageId: com.crescive.external.nicevibrations
+          scope:
+      - name: FX
+        packages:
+        - name: FX Utils
+          packageId: com.crescive.fxutils
+          scope:
+      - name: GameObject
+        packages:
+        - name: GameObject Utils
+          packageId: com.crescive.gameobjectutils
+          scope:
+        - name: Auto Layouts
+          packageId: com.crescive.autolayouts
+          scope:
+      - name: State Management
+        packages:
+        - name: Game State System
+          packageId: com.crescive.gamestatesystem
+          scope:
+      - name: Input Management
+        packages:
+        - name: Inputs
+          packageId: com.crescive.inputs
+          scope:
+      - name: Color
+        packages:
+        - name: Color Utils
+          packageId: com.crescive.colorutils
+          scope:
+      - name: Shader
+        packages:
+        - name: Toony Colors Pro Utils
+          packageId: com.crescive.tcputils
+          scope:
+      - name: Renderer
+        packages:
+        - name: Renderer Utils
+          packageId: com.crescive.rendererutils
+          scope:
+      - name: Onboarding
+        packages:
+        - name: Tutorials
+          packageId: com.crescive.tutorials
+          scope:
+      - name: Recorder
+        packages:
+        - name: Screen Shooter
+          packageId: com.loom.screenshooter
+          scope:
+      - name: Network & Cloud Frameworks
+        packages:
+        - name: Nakama
+          packageId: com.loom.nakama
+          scope:
+    - name: Loading
+      description: Individual systems
+      sections:
+      - name: Internal Loading
+        packages:
+        - name: Load System
+          packageId: com.crescive.loadsystem
+          scope:
+        - name: Load System UI
+          packageId: com.crescive.loadsystem.ui
+          scope:
+        - name: Scene Load System
+          packageId: com.crescive.loadsystem.scenes
+          scope:
+        - name: Level Load System
+          packageId: com.crescive.loadsystem.levels
+          scope:
+        - name: Prefab Loaders
+          packageId: com.crescive.prefabloaders
+          scope:
+      - name: External Loading
+        packages:
+        - name: Scene System
+          packageId: com.annulusgames.scene-system
+          scope: com.openupm
+  - name: Core
+    modules:
+    - name: Scripting
+      description: Scripting layer
+      sections:
+      - name: Architecture
+        packages:
+        - name: Unyverse
+          packageId: com.crescive.unyverse
+          scope:
+        - name: Unyverse Extended
+          packageId: com.crescive.unyverse.extended
+          scope:
+        - name: Service Locator
+          packageId: com.crescive.servicelocator
+          scope:
+      - name: Reactive
+        packages:
+        - name: UniTask
+          packageId: com.cysharp.unitask
+          scope: com.openupm
+      - name: Utils
+        packages:
+        - name: Crescive Reflection
+          packageId: com.crescive.reflection
+          scope:
+        - name: Collections
+          packageId: com.crescive.collections
+          scope:
+        - name: Data Utils
+          packageId: com.crescive.datautils
+          scope:
+        - name: Randomness
+          packageId: com.crescive.randomness
+          scope:
+        - name: Events
+          packageId: com.crescive.events
+          scope:
+        - name: Singletons
+          packageId: com.crescive.singletons
+          scope:
+        - name: Extensions
+          packageId: com.crescive.extensions
+          scope:
+      - name: Types
+        packages:
+        - name: Unyverse Unity Types
+          packageId: com.crescive.unyverse.unity-types
+          scope:
+        - name: Unyverse Unity UI (UGUI) Types
+          packageId: com.crescive.unyverse.ugui-types
+          scope:
+    - name: Systems
+      description: Individual systems
+      sections:
+      - name: Data
+        packages:
+        - name: Conditioning
+          packageId: com.crescive.data.conditioning
+          scope:
+        - name: Conditioning Extended
+          packageId: com.crescive.data.conditioning.extended
+          scope:
+        - name: Helper Types
+          packageId: com.crescive.data.helpertypes
+          scope:
+        - name: Crescive Json
+          packageId: com.crescive.data.json
+          scope:
+        - name: Persistence
+          packageId: com.crescive.data.persistence
+          scope:
+        - name: Transactions
+          packageId: com.crescive.data.transactions
+          scope:
+        - name: Claimables
+          packageId: com.crescive.data.claimables
+          scope:
+        - name: Claimable Transactions
+          packageId: com.crescive.data.transactions.claimables
+          scope:
+        - name: Claimable Gift
+          packageId: com.crescive.data.claimables.gift
+          scope:
+        - name: Claimable Gift Extended
+          packageId: com.crescive.data.claimables.gift.extended
+          scope:
+        - name: Claimable Gift Transactions
+          packageId: com.crescive.data.transactions.claimables.gift
+          scope:
+        - name: Claimables UI
+          packageId: com.crescive.data.claimables.ui
+          scope:
+        - name: Claimable Resources
+          packageId: com.crescive.data.claimables.resources
+          scope:
+        - name: Resources
+          packageId: com.crescive.data.resources
+          scope:
+        - name: Resources Behaviours
+          packageId: com.crescive.data.resources.behaviours
+          scope:
+        - name: Resources UI
+          packageId: com.crescive.data.resources.ui
+          scope:
+        - name: Resources UI UniTask
+          packageId: com.crescive.data.resources.ui.unitask
+          scope:
+        - name: Data Services
+          packageId: com.crescive.data.services
+          scope:
+        - name: Data Services Remote
+          packageId: com.crescive.data.services.remote
+          scope:
+        - name: Persistent Variables
+          packageId: com.crescive.data.persistentvariables
+          scope:
+        - name: Data Unyverse
+          packageId: com.crescive.data.unyverse
+          scope:
+      - name: Other
+        packages:
+        - name: Sequencer
+          packageId: com.crescive.sequencer
+          scope:
+        - name: Sequencer Extended
+          packageId: com.crescive.sequencer.extended
+          scope:
+        - name: Scheduler
+          packageId: com.crescive.scheduler
+          scope:
+        - name: Timers
+          packageId: com.crescive.timers
+          scope:
+    - name: Level
+      description: Level modules
+      sections:
+      - name: Creator
+        packages:
+        - name: Level Creator
+          packageId: com.crescive.levelcreator
+          scope:
+        - name: Level Creator Extended
+          packageId: com.crescive.levelcreator.extended
+          scope:
+        - name: Level Designing
+          packageId: com.crescive.leveldesigning
+          scope:
+      - name: Level Data
+        packages:
+        - name: Level Rewards
+          packageId: com.crescive.levelrewards
+          scope:
+        - name: Level Difficulties
+          packageId: com.crescive.leveldifficulties
+          scope:
+        - name: Level Features
+          packageId: com.crescive.levelfeatures
+          scope:
+  - name: Monetization
+    modules:
+    - name: Offer
+      description: Offer systems
+      sections:
+      - name: In Game
+        packages:
+        - name: In Game Offer
+          packageId: com.crescive.ingameoffer
+          scope:
+        - name: In Game Offer Extended
+          packageId: com.crescive.ingameoffer.extended
+          scope:
+  - name: Analytics
+    modules:
+    - name: Trackers
+      description: Metric trackers
+      sections:
+      - name: In Game
+        packages:
+        - name: In Game Metric Trackers
+          packageId: com.crescive.trackers.ingame
+          scope:
+  windowIcon: {fileID: 2800000, guid: d347186f82464be40b213372a660befc, type: 3}
+  registries:
+  - name: package.openupm.com
+    url: https://package.openupm.com
+    scope: com.openupm
+  - name: package.crescive.com
+    url: https://gitlab.com/api/v4/projects/61559928/packages/npm
+    scope: com.crescive
