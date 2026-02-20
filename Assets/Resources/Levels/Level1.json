@@ -1,0 +1,43 @@
+{
+  "id": 1,
+  "slotQueues": [
+    {
+      "queueColor": 0,
+      "pigJars": [
+        { "id": 1, "color": 0, "count": 3 },
+        { "id": 2, "color": 0, "count": 3 },
+        { "id": 3, "color": 0, "count": 3 }
+      ]
+    },
+    {
+      "queueColor": 1,
+      "pigJars": [
+        { "id": 4, "color": 1, "count": 3 },
+        { "id": 5, "color": 1, "count": 3 },
+        { "id": 6, "color": 1, "count": 3 }
+      ]
+    },
+    {
+      "queueColor": 2,
+      "pigJars": [
+        { "id": 7, "color": 2, "count": 3 },
+        { "id": 8, "color": 2, "count": 3 },
+        { "id": 9, "color": 2, "count": 3 }
+      ]
+    }
+  ],
+  "gems": [
+    { "id": 1, "position": { "x": 5, "y": 2, "z": 0 }, "color": 0 },
+    { "id": 2, "position": { "x": 6, "y": 2, "z": 0 }, "color": 1 },
+    { "id": 3, "position": { "x": 7, "y": 2, "z": 0 }, "color": 2 },
+    { "id": 4, "position": { "x": 5, "y": 1, "z": 0 }, "color": 0 },
+    { "id": 5, "position": { "x": 6, "y": 1, "z": 0 }, "color": 1 },
+    { "id": 6, "position": { "x": 7, "y": 1, "z": 0 }, "color": 2 },
+    { "id": 7, "position": { "x": 5, "y": 0, "z": 0 }, "color": 0 },
+    { "id": 8, "position": { "x": 6, "y": 0, "z": 0 }, "color": 1 },
+    { "id": 9, "position": { "x": 7, "y": 0, "z": 0 }, "color": 2 },
+    { "id": 10, "position": { "x": 5, "y": -1, "z": 0 }, "color": 3 },
+    { "id": 11, "position": { "x": 6, "y": -1, "z": 0 }, "color": 4 },
+    { "id": 12, "position": { "x": 7, "y": -1, "z": 0 }, "color": 3 }
+  ]
+}
